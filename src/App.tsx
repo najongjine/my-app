@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./Pages/Home";
 import Header from "./Component/Header";
 import Footer from "./Component/Footer";
+import Emulator from "./Pages/Emulator";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/emulator" element={<Emulator />} />
         </Routes>
         <Footer />
       </BrowserRouter>
